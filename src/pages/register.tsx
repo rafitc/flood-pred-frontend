@@ -1,8 +1,8 @@
-import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
+import { Dialog, Transition } from "@headlessui/react";
 
 export default function Form() {
-  let [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   const [name, setName] = useState("");
   const [pincode, setPincode] = useState("");
   const [phone, setPhone] = useState("");
